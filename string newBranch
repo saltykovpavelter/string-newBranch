@@ -1,0 +1,5 @@
+public void Branch(string newBranch)
+    {
+        branches[newBranch] = new List<string>(branches[currentBranch]);
+        Console.WriteLine($"Created branch: {newBranch}");
+    }
